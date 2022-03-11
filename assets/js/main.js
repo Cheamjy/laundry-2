@@ -44,19 +44,19 @@
 
 		// Button.
 			$(
-				'<div id="navButton">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-				'</div>'
+				//'<div id="navButton">' +
+					//'<a href="#navPanel" class="toggle"></a>' +
+				//'</div>'
 			)
 				.appendTo($body);
 
 		// Panel.
 			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
-				'</div>'
+				//'<div id="navPanel">' +
+					//'<nav>' +
+						//$('#nav').navList() +
+					//'</nav>' +
+				//'</div>'
 			)
 				.appendTo($body)
 				.panel({
